@@ -1,0 +1,17 @@
+Git常见语句：
+1、设置用户名 git config –global user.name ‘username’
+2、设置邮箱 git config –global user.email ‘email’
+3、查看用户信息 git config –list
+4、查看当前文件夹 pwd
+5、查看当前目录文件 ls
+6、创建文件 touch 文件名.文件类型;
+添加到暂存区  git  add  文件名.文件类型;
+提交到本地仓库 git commit  -m ‘提交版本信息或者备注;
+提交到远程仓库 git push;  
+7、GitHub修改文件后与本地仓库不一致问题解决：
+7.1先抓取并合并远程仓库全部内容git pull origin master
+7.2再推送本地仓库数据git push origin master
+8、git删除文件
+8.1 rm  文件名.文件类型（操作比较危险，不建议。可以window下删除）
+8.2 git rm文件名.文件类型
+8.3 git commit –m ‘提交备注’
