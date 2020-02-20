@@ -1,0 +1,21 @@
+1，	git --version  查看git版本
+2，	git clone git@github.com:项目名    克隆项目到本地（要先进入需要克隆的文件夹）
+3，	ls  查看当前目录
+4，	cd 目录  打开目录
+5，	git status  查看当前项目状态
+6，	git branch 查看分支
+7，	touch  文件   创建文件
+8，	git add  文件  添加文件  git  add . 添加所有文件  将文件提交暂缓区
+9，	git commit -m “注释”提交至本地仓库
+10，	git  push   提交至github
+11，	git  branch –a  查看分支
+12，	git  checkout –b dev   创建一个dev分支
+13，	git push origin dev  推送至Dev分支
+14，	git checkout  master   切换到master分支
+15，	git merge dev  将Dev分支上的内容合并到maser分支
+16，	git  branch  -d dev  删除dev分支
+17，	git push origin :dev GitHub上删除dev分支
+18，	git reset --hard head^  退回到上一个版本
+19，	git log  查看日志
+20，	git reflog 查看所有日志信息
+21，	git reset --hard  head@{1}  回退至head@{1}版本
